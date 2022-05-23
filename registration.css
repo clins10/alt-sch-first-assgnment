@@ -95,8 +95,8 @@ main {
 }
 
 .btn {
-  width: 100%;
-  padding: 1rem;
+  white-space: nowrap;
+  padding: 1em 2em;
   border: 1px solid #f9328a;
   border-radius: 5px;
   font-weight: bold;
@@ -116,9 +116,6 @@ main {
   background: #ffffff;
   cursor: pointer;
 }
-
-
-
 
 
 /*social Media*/
