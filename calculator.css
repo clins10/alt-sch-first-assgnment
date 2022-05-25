@@ -1,0 +1,124 @@
+/*https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60*/
+
+/*importing google font Family-poppins*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+} 
+
+    body {   
+        margin: 0;
+        padding: 0;
+        background: #b1aaaa;
+    }
+
+
+.header-content-wrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+/*Logo*/
+.logo {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #f9328a;
+}
+
+/*Nav Links*/
+.nav-links {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none; /*remove underline*/
+  transition: 0.5s;
+  padding: 5px;
+  margin: 5px;
+}
+
+.nav-links.active {
+  color: #f9328a;
+}
+
+/* Main Body Content */
+main {
+  margin-top: 80px;
+}
+
+ 
+/* main section */
+.calculator {
+ padding: 10px;
+ border-radius: 1em;
+ height: 380px;
+ width: 400px;
+ margin: 0 auto;
+ background-color: #f2f3f8;
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ margin-bottom: 10rem;
+}
+.display-box {
+ font-family: 'Orbitron', sans-serif;
+ background-color: #fafafa;
+ border: solid rgb(158, 151, 151) 0.5px;
+ color: #f9328a;
+ text-align: center;
+ font-size: 1.2em;
+ border-radius: 5px;
+ width: 100%;
+ height: 65%;
+}
+.button {
+ font-family: 'Orbitron', sans-serif;
+ background-color: #b1aaaa;
+ color: black;
+ border: solid rgb(158, 151, 151) 0.5px;
+ width: 100%;
+ border-radius: 5px;
+ height: 70%;
+ outline: none;
+}
+.button:active {
+ background: #e5e5e5;
+ -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+ -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+ box-shadow: inset 0px 1px 9px #c1c1c1;
+}
+
+
+
+/*social Media*/
+
+.social-account-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.social-account-wrapper svg {
+  width: 15px;
+  height: 15px;
+  fill: #000;
+}
+
+.social-account-wrapper svg:hover {
+  fill: white;
+  cursor: pointer;
+}
+
+/* footer */
+footer {
+  background-color: #f9328a;
+  padding: 30px;
+  margin-top: 2rem;
+
+}
