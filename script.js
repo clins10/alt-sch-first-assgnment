@@ -7,7 +7,7 @@ function clearScreen() {
 function display(value) {
   document.getElementById("result").value += value;
 }
-// This function evaluates the expression and return result
+// function that evaluates the expression and return result
 function calculate() {
   var p = document.getElementById("result").value;
   var q = eval(p);
