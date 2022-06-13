@@ -54,7 +54,7 @@ html{
 .logo {
   font-size: 30px;
   font-weight: bolder;
-  color: #f9328a;
+  color: #f5ee38;
 }
 
 /*Nav Links*/
@@ -124,7 +124,7 @@ html{
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
-  border-radius: 30px;
+/*   border-radius: 30px; */
   margin: 2px;
   letter-spacing: 1px;
   cursor: pointer;
@@ -185,7 +185,7 @@ main {
 /* goals section*/
 .goals-section {
   margin: 40px 0;
-  // background-color: #f9328a;
+/*   background-color: #f9328a; */
   min-height: 300px;
   display: flex;
   flex-direction: column;
@@ -207,7 +207,7 @@ main {
   color: #ffffff;
   padding: 8px;
   margin: 4px;
-  border-radius: 25px;
+  border-radius: 5px;
   font-size: 12px;
   transition: 0.5s;
   cursor: pointer;
@@ -225,7 +225,7 @@ main {
 .education-section {
   margin:40px 0;
   min-height: 100%;
-  // background-color: #f9328a;
+/*    background-color: #f9328a; */
 }
 .education-section h2 {
   color: #f9328a;
@@ -311,6 +311,9 @@ main {
   resize:none;
   margin-bottom: 10px;
 }
+button.btn {
+    border-radius: 5px;
+}
 
 /* selection section */
 .priority-section {
@@ -355,3 +358,112 @@ footer {
   padding: 30px;
   margin-top: 8rem;  
 }
+
+
+     /* MEDIA QUERY */
+@media screen and (max-width: 425px ) {
+  .full-name {
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10px;
+    margin: auto;
+    margin-right: auto;
+   }
+  section {
+      width: 50%;
+      width: 100%;
+  }
+  section.hero-wrapper-icons {
+    display: flex;
+    justify-content: center;
+  }
+ .hero-btn-wrapper {
+    margin-top: -0.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  section.header-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: -2.5em;
+  }
+  .goals-section {
+    margin: -43px 0;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .goals-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 35px 0;
+  }
+  .goals-pill {
+    background-color: #000;
+    color: #ffffff;
+    padding: 1em 2em;
+    margin: 4px;
+    border-radius: 10px;
+    font-size: 12px;
+    transition: 0.5s;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .education-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+  }
+  input#subject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+  }
+  textarea#message {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      width: fit-content;
+  }
+  .social-account-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+
+  
+}
+
+  
+
+  
+
