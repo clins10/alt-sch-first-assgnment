@@ -127,15 +127,15 @@ main {
 
 /* send button section */
 .btn {
+  white-space:nowrap;
   background-color: #f9328a;
   border: none;
-  width: 15vw;
   color: #ffffff;
-  padding: 10px 14px;
+  padding: 1em 2em;
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
-  border-radius: 30px;
+  border-radius: 10px;
   margin: 2px;
   letter-spacing: 1px;
   cursor: pointer;

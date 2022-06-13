@@ -111,8 +111,8 @@ main {
   padding: 1rem;
   border: 1px solid #b1aaaa;
   border-radius: 5px;
-  font-weight: bold;
-  color: #ffffff;
+  font-weight: small;
+  color: #b1aaaa;
   background: #ffffff;
   cursor: pointer;
 }
